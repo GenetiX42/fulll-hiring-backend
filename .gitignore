@@ -1,0 +1,31 @@
+# Composer dependencies
+/vendor/
+composer.phar
+
+# IDE and editor files
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+*:Zone.Identifier
+
+# PHP specific
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Behat
+behat.cache
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log

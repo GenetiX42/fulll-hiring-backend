@@ -1,0 +1,29 @@
+{
+    "name": "genetix42/backend-boilerplate",
+    "type": "project",
+    "license": "proprietary",
+    "description": "Backend boilerplate with hexagonal architecture",
+    "require": {
+        "php": "^8.1",
+        "behat/behat": "^3.13"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "allow-plugins": {
+            "ocramius/package-versions": true,
+            "symfony/flex": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Fulll\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
